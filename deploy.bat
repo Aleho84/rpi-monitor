@@ -1,0 +1,1 @@
+scp -r ./*.* aleho@192.168.0.11:/home/aleho/Development/rpi-monitor/

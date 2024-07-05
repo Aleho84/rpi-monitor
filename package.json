@@ -1,0 +1,33 @@
+{
+  "name": "rpi-monitor",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "deploy": "deploy.bat"
+  },
+  "author": {
+    "name": "Alejandro Abraham",
+    "email": "alejandro.r.abraham@gmail.com",
+    "url": "https://github.com/Aleho84"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleho84/rpi-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aleho84/rpi-monitor/issues"
+  },
+  "homepage": "https://github.com/Aleho84/rpi-monitor#readme",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "ping": "^0.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
